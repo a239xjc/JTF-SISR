@@ -15,7 +15,7 @@ on 5 synthetic datasets, i.e., Set5, Set14, B100, Urban100 and Manga109, and 1 r
 Explain how to run the project
 
 ```
-python main.py --model cen --save cen_x4(Folder Name) –scale 4 --save_models --save_results --patch_size 128 --batch_size 16
+python main.py --model model --save cen_x4(Folder Name) –scale 4 --save_models --save_results --patch_size 128 --batch_size 16
 ```
 
 ### Test
@@ -23,7 +23,7 @@ python main.py --model cen --save cen_x4(Folder Name) –scale 4 --save_models -
 Explain how to test the project
 
 ```
-python main.py --model cen --save cen_x4 --scale 4 --save_results --test_only --pre_train /experiment/cen_x4/model/model_best.pt (Path to save the model) --date_test Set5
+python main.py --model model --save cen_x4 --scale 4 --save_results --test_only --pre_train /experiment/cen_x4/model/model_best.pt (Path to save the model) --date_test Set5
 ```
 
 
